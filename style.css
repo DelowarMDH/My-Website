@@ -1,10 +1,19 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-.name-highlight{
+.top-banner{
+    background-image: url("images/dev1.png");
+    background-repeat: no-repeat;
+   
+}
+.orange-highlight{
    color: orange;
 }
 .half-width{
@@ -14,5 +23,53 @@ body{
     padding: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 85%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+section{
+    height: 600px;
+}
+.dream-area{
+   background-image: url("images/devv.png");
+   background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 15%;
+  
+}
+.bottom-block{
+    box-shadow: 10px 10px 40px gray;
+    height: 55%;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+#block1{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#block2{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+.low-banner{
+    background-image: url(images/low.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
+}
+#ex{
+    text-align: left;
 }
